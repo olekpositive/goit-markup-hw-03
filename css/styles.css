@@ -1,0 +1,386 @@
+:root {
+    --dark: #2f303a;
+    --grey: #757575;
+    --FFF: #FFF;
+    --blue: #2196F3;
+    --black: #212121;
+    --button: #F5F4FA;
+    --line: #ECECEC;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--FFF);
+    border: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a:focus {
+    color: var(--blue);
+}
+
+a:hover {
+    color: var(--blue);
+}
+
+/* -------------- html */
+
+/*--------------- header */
+.style-header {
+    width: 1600px;
+    height: 80px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.cancel-logo {
+    float: left;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192em;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    margin-left: 215px;
+}
+
+.first-word {
+    color: #2196F3;
+
+}
+
+.second-word {
+    color: #000000;
+}
+
+.first-position {
+    display: flex;
+    width: 254px;
+    height: 16px;
+    margin-top: 32px;
+    margin-left: 47px;
+}
+
+.first-position-list {
+    padding-left: 46px;
+}
+
+.second-position {
+    display: flex;
+    margin-top: 32px;
+    margin-left: 321px;
+}
+
+.second-position-list {
+    color: var(--grey);
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.cancel {
+    text-decoration: none;
+    color: var(--black);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,142em;
+    letter-spacing: 0.02em;
+}
+
+.mail-tel {
+    color: var(--grey);
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 142em;
+    letter-spacing: 0.02em;
+    
+}
+
+/* ---------------------- end header */
+
+
+
+
+/* ---------------EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU--------------------------*/
+
+.navigation-section {
+    width: 1600px;
+    height: 600px;
+    background-color: var(--dark);
+}
+
+h1 {
+    color: var(--FFF);
+}
+
+.name-position {
+    text-transform: uppercase;
+    width: 696px;
+    height: 120px;
+    text-align: center;
+    padding-left: 452px;
+    padding-top: 200px;
+
+}
+
+.name-page {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363em;
+    letter-spacing: 0.06em;
+    color: var(--FFF);
+}
+
+.button-position {
+    margin-top: 10px;
+    margin-left: 700px;
+    width: 200px;
+    height: 50px;
+    background-color: var(--blue);
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.button-1 {
+    color: var(--FFF);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875em;
+}
+
+/* ---END-------EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU--------------------------*/
+
+
+
+
+/* ---------------------- lerem ------------*/
+
+.article-section {
+    width: 1600px;
+    height: 769px;
+
+}
+
+.all-lorem {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1170px;
+    height: 101px;
+    margin-left: 185px;
+    margin-top: 94px;
+}
+
+.lorem-font {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142em;
+    letter-spacing: 0.03em;
+    
+}
+
+.lorem-text {
+    width: 270px;
+    height: 75px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714em;
+    letter-spacing: 0.03em;
+    color:var(--grey)
+
+}
+
+
+
+/* ------END-------------- lerem ---------------- */
+
+
+
+/* < -- Czym się zajmujemy --> */
+
+
+.section {
+    width: 1170px;
+    height: 386px;
+
+}
+
+.font-h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166em;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+}
+
+.section-position {
+    display: flex;    
+}
+
+
+.position-team {
+    display: flex;
+}
+/*----------END- Czym się zajmujemy --> */
+.image-section {
+width: 1600px;
+    height: 648px;
+    background-color: var(--button);
+}
+
+.position-team {
+    display: flex;
+}
+
+.description-employees {
+    font-size: 36px;
+    line-height: 1.166em;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.box-human {
+    background: #FFFFFF;
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.name-human {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187em;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black);
+
+}
+
+.description-human {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.187em;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--grey);
+}
+/* < !-- Nasz zespół --> */
+
+
+/*------------- footer  ------------------*/
+
+
+.footer-section {
+    width: 1600px;
+    height: 252px;
+    background-color: var(--dark)
+}
+
+.cancel-logo1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192em;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.adres {
+    text-decoration: none;
+    color: var(--FFF);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.174em;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+}
+
+.third-word {
+    color: var(--FFF);
+}
+
+.mail-tel1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.174em;
+    letter-spacing: 0.02em;
+    color: #FFFFFF99;
+    text-decoration: none;
+}
+
+/*-----END------- footer  ------------------*/
+
+
+/* Portfolio */
+
+.button-all {
+    display: flex;
+
+}
+
+.button-portfolio {
+    width: 121px;
+    height: 38px;
+    left: 510px;
+    top: 174px;
+    background: #F5F4FA;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    background: #2196F3;
+    color: var(--FFF);
+
+}
+
+.style-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625em;
+    letter-spacing: 0.03em;
+}
+
+.description {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2em;
+    letter-spacing: 0.06em;
+}
+
+.second-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--grey)
+}
+
+/* -------END---------Portfolio----------------- */
