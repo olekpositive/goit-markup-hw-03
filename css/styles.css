@@ -54,10 +54,12 @@ a:hover {
     letter-spacing: 0.03em;
     text-decoration: none;
     padding-left: 215px;
+
 }
 
 .first-word {
     color: #2196F3;
+    
 }
 
 .second-word {
@@ -86,7 +88,7 @@ a:hover {
 .second-position-list {
     color: var(--grey);
     font-weight: 500;
-    
+    padding: 32px, 0, 32px, 354px ;
 }
 
 .cancel {
@@ -136,7 +138,7 @@ h3 {
     height: 120px;
     text-align: center;
     padding-left: 452px;
-    padding-top: 200px;
+    padding-top: 106px;
 
 }
 
@@ -153,7 +155,7 @@ h3 {
 
 .button-bg {
     margin-left: 700px;
-    margin-top: 30px;
+    margin-top: 350px;
     width: 200px;
     height: 50px;
     background-color: var(--blue);
@@ -192,7 +194,11 @@ h3 {
     height: 101px;
     padding-left: 215px;
     padding-top: 94px;
-    margin: 0;
+    gap:
+}
+
+.lorem-margin-left {
+    
 }
 
 .lorem-font {
@@ -213,8 +219,6 @@ h3 {
     line-height: 1.714em;
     letter-spacing: 0.03em;
     color: var(--grey);
-    margin: 0;
-
 }
 
 
