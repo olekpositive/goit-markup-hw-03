@@ -28,8 +28,9 @@ a:hover {
 }
 
 .container {
-    width: 1200px;
-    text-align: center;
+    width: 1170px;
+    padding: 0, 15px;
+    margin: auto;
 }
 /* -------------- html */
 
@@ -37,9 +38,10 @@ a:hover {
 .style-header {
     width: 1600px;
     height: 80px;
-    display: flex;
-    box-sizing: border-box;
+}
 
+.header-flex {
+    display: flex;
 }
 
 .cancel-logo {
@@ -56,7 +58,6 @@ a:hover {
 
 .first-word {
     color: #2196F3;
-
 }
 
 .second-word {
@@ -78,14 +79,14 @@ a:hover {
 
 .second-position {
     display: flex;
-    margin-top: 32px;
-    margin-left: 321px;
+    padding-top: 16px;
+    
 }
 
 .second-position-list {
     color: var(--grey);
     font-weight: 500;
-    margin-left: 50px;
+    
 }
 
 .cancel {
@@ -310,6 +311,7 @@ h3 {
     width: 1600px;
     height: 252px;
     background-color: var(--dark);
+    
 }
 
 .padding-footer {
@@ -370,13 +372,12 @@ h3 {
 /* Portfolio */
 
 .line-page {
-    margin: 0;
     width: 1600px;
     border: 1px solid #ECECEC;
 }
 
 .position-portfolio {
-    height: 1360px;
+    height: 1548px;
     
 }
 
@@ -391,7 +392,6 @@ h3 {
     width: 121px;
     height: 38px;
     background: #F5F4FA;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     border: 0;
     cursor: pointer;
@@ -402,6 +402,7 @@ h3 {
 .button-portfolio:focus {
     background: #2196F3;
     color: var(--FFF);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .style-button {
@@ -419,6 +420,8 @@ h3 {
     gap: 30px;
     margin: 0;
     padding: 0;
+    padding-top:50px;
+
 }
 
 .li-box {
@@ -427,7 +430,7 @@ h3 {
     border: 1px solid #EEEEEE;
     width: 370px;
     height: 404px;
-    
+
 }
 
 .description {
