@@ -14,6 +14,12 @@ body {
     border: none;
 }
 
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
 ul,
 li {
     list-style-type: none;
@@ -28,9 +34,13 @@ a:hover {
 }
 
 .container {
-    width: 1170px;
-    padding: 0, 15px;
+    width: 1200px;
     margin: auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 /* -------------- html */
 
@@ -38,6 +48,7 @@ a:hover {
 .style-header {
     width: 1600px;
     height: 80px;
+   
 }
 
 .header-flex {
@@ -59,7 +70,6 @@ a:hover {
 
 .first-word {
     color: #2196F3;
-    
 }
 
 .second-word {
@@ -76,19 +86,19 @@ a:hover {
 
 /* margin-top: 32px; */
 .first-position-list {
-    padding-left: 46.5px;
+    padding-left: 46px;
 }
 
 .second-position {
     display: flex;
-    padding-top: 16px;
-    
+    justify-content: flex-end; 
+    padding-top: 32px;
+    margin: 0;
 }
 
 .second-position-list {
-    color: var(--grey);
-    font-weight: 500;
-    padding: 32px, 0, 32px, 354px ;
+    padding-left: 50px;
+    margin: 0;
 }
 
 .cancel {
@@ -109,12 +119,9 @@ a:hover {
     font-size: 14px;
     line-height: 1, 142em;
     letter-spacing: 0.02em;
-
 }
 
 /* ---------------------- end header */
-
-
 
 
 /* ---------------EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU--------------------------*/
@@ -126,20 +133,12 @@ a:hover {
 
 }
 
-h1,
-h2,
-h3 {
-    margin: 0;
-}
 
 .name-position {
-    text-transform: uppercase;
-    width: 696px;
-    height: 120px;
     text-align: center;
-    padding-left: 452px;
     padding-top: 106px;
-
+    padding-left: 452px;
+    padding-right: 452px;
 }
 
 .name-page {
@@ -150,12 +149,14 @@ h3 {
     line-height: 1.363em;
     letter-spacing: 0.06em;
     color: var(--FFF);
+    text-transform: uppercase;
+    
 }
 
 
 .button-bg {
     margin-left: 700px;
-    margin-top: 350px;
+    margin-top: 30px;
     width: 200px;
     height: 50px;
     background-color: var(--blue);
@@ -183,7 +184,6 @@ h3 {
 .article-section {
     width: 1600px;
     height: 769px;
-
 }
 
 .all-lorem {
@@ -193,13 +193,11 @@ h3 {
     width: 1170px;
     height: 101px;
     padding-left: 215px;
-    padding-top: 94px;
-    gap:
+    gap: 30px;
+    margin: 0;
 }
 
-.lorem-margin-left {
-    
-}
+
 
 .lorem-font {
     font-style: normal;
@@ -207,7 +205,6 @@ h3 {
     font-size: 14px;
     line-height: 1.142em;
     letter-spacing: 0.03em;
-
 }
 
 .lorem-text {
@@ -235,7 +232,6 @@ h3 {
     display: flex;
     padding-left: 185px;
     margin: 0;
-
 }
 
 .margin {
@@ -256,7 +252,6 @@ h3 {
 /*----------END- Czym się zajmujemy --> */
 .image-section {
     width: 1600px;
-    height: 648px;
     background-color: var(--button);
 }
 
@@ -273,7 +268,7 @@ h3 {
     line-height: 1.166em;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 94px;
+   
 }
 
 .box-human {
@@ -337,8 +332,12 @@ h3 {
     margin: 0;
     padding: 0;
     padding-left: 215px;
-    padding-top: 20px;
+    padding-top: 11px;
 
+}
+
+.margin-footer {
+    padding-top: 9px;
 }
 
 .adres {
@@ -366,7 +365,7 @@ h3 {
     letter-spacing: 0.02em;
     color: #FFFFFF99;
     text-decoration: none;
-    line-height: 24px;
+    
 
 }
 
@@ -376,9 +375,13 @@ h3 {
 /* Portfolio */
 
 .line-page {
+    
     width: 1600px;
     border: 1px solid #ECECEC;
+    
 }
+
+
 
 .position-portfolio {
     height: 1548px;
@@ -388,7 +391,6 @@ h3 {
 .button-all {
     margin: 0;
     display: flex;
-    padding-top: 94px;
     justify-content: center;
 }
 
@@ -442,13 +444,14 @@ h3 {
     font-size: 18px;
     line-height: 2em;
     letter-spacing: 0.06em;
-    padding-left: 24px;
+    padding: 20px 24px 4px 24px;
+    margin: 0;
 }
 
 .second-description {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.875em;
     letter-spacing: 0.03em;
     color: var(--grey);
     padding-left: 24px;
