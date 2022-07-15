@@ -46,6 +46,13 @@ a:hover {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+figure {
+    margin: 0;
+    padding: 0;
+    width: 270;
+    height: 220;
+}
 /* -------------- html */
 
 /*--------------- header */
@@ -195,6 +202,8 @@ a:hover {
     line-height: 1.714em;
     letter-spacing: 0.03em;
     color: var(--grey);
+    margin: 0;
+    padding: 10px 0 0 0;
 }
 
 
@@ -204,7 +213,6 @@ a:hover {
 
 
 /* < -- Czym się zajmujemy --> */
-
 
 
 .section-position {
@@ -225,7 +233,7 @@ a:hover {
     line-height: 1.166em;
     text-align: center;
     letter-spacing: 0.03em;
-    
+    padding: 94px 0 0 0;
 }
 
 /*----------END- Czym się zajmujemy --> */
